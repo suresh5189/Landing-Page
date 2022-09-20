@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landio - Landing page</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&family=Quicksand:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <!-- <img src="./assets/images/logo.svg" alt="Landio logo"> -->
+        <a href="" style="font-size: 30px; color:black;">Logo</a>
+      </a>
+
+      <button class="menu-toggle-btn" data-nav-toggle-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#hero" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#features" class="navbar-link">Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link">Pricing</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <div class="header-actions">
+          <a href="#" class="header-action-link">Log in</a>
+
+          <a href="#" class="header-action-link">Sign up</a>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - HERO
+      -->
+
+      <section class="hero" id="hero">
+        <div class="container">
+
+          <div class="hero-content">
+            <h1 class="h1 hero-title">Develop your skills without diligence</h1>
+
+            <p class="hero-text">
+              But I must explain to you how all this mistaken idea of denouncing pleasure and praising 
+pain was born and I will give yoou a complete account of the system.
+            </p>
+            <form action="" class="hero-form">
+              <input type="email" name="email" required placeholder="Enter Your Email" class="email-field">
+
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./images/home.png" alt="Hero image">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - ABOUT
+      -->
+
+      <section class="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <div class="about-icon">
+              <ion-icon name="cube"></ion-icon>
+            </div>
+
+            <h2 class="h2 about-title">Why we are better than others</h2>
+
+            <p class="about-text">
+              On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized
+            </p>
+          </div>
+
+          <ul class="about-list">
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <ion-icon name="thumbs-up"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Convenient study schedule</h3>
+
+                <p class="card-text">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <ion-icon name="trending-up"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Checked homework by teachers </h3>
+
+                <p class="card-text">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Modern internet platform</h3>
+
+                <p class="card-text">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <ion-icon name="server"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Lessson</h3>
+
+                <p class="card-text">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - BLOG
+      -->
+
+      <section class="blog" id="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title">Here are all our plans</h2>
+
+          <p class="section-text">
+            On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized
+          </p>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+                <div class="blog-meta">
+                </div>
+                <h4 class="blog-title">Start</h4>
+
+                <p class="blog-text">
+                  On the other hand, we denounce with righteous indignation and dislike
+                </p>
+              </br>
+              <h5>Video of Lessons</h5></br>
+              <h5>HomeWork Check</h5></br>
+              <h5>Additional Practical Task</h5></br>
+              <h5>Monthly conferences</h5></br>
+              <h5>Personal Advice from teachers</h5>
+            </div>
+            </li>
+            
+            <li>
+              <div class="blog-card">
+                <div class="blog-meta">
+                </div>
+                <h4 class="blog-title">Advance</h4>
+  
+                <p class="blog-text">
+                  On the other hand, we denounce with righteous indignation and dislike
+                </p>
+              </br>
+              <h5>Video of Lessons</h5></br>
+              <h5>HomeWork Check</h5></br>
+              <h5>Additional Practical Task</h5></br>
+              <h5>Monthly conferences</h5></br>
+              <h5>Personal Advice from teachers</h5>
+            </div>               
+
+            </li>
+
+            <li>
+              <div class="blog-card">
+              <div class="blog-meta">
+              </div>
+              <h4 class="blog-title">Premium</h4>
+
+              <p class="blog-text">
+                On the other hand, we denounce with righteous indignation and dislike
+              </p>
+            </br>
+            <h5>Video of Lessons</h5></br>
+            <h5>HomeWork Check</h5></br>
+            <h5>Additional Practical Task</h5></br>
+            <h5>Monthly conferences</h5></br>
+            <h5>Personal Advice from teachers</h5>
+          </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - CONTACT
+      -->
+
+      <section class="contact" id="contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">Contact Us</h2></br></br>
+          <div class="contact-wrapper">
+
+            <form action="" class="contact-form">
+
+              <div class="wrapper-flex">
+
+                <div class="input-wrapper">
+                  <label for="name">Name*</label>
+
+                  <input type="text" name="name" id="name" required placeholder="Enter Your Name" class="input-field">
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="emai">Email*</label>
+
+                  <input type="text" name="email" id="email" required placeholder="Enter Your Email"
+                    class="input-field">
+                </div>
+
+              </div>
+
+              <label for="message">Message*</label>
+
+              <textarea name="message" id="message" required placeholder="Type Your Message"
+                class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-primary">
+                <span>Send Message</span>
+
+                <ion-icon name="paper-plane-outline"></ion-icon>
+              </button>
+
+            </form>
+
+            <ul class="contact-list">
+
+              <li>
+                <a href="mailto:support@website.com" class="contact-link">
+                  <ion-icon name="mail-outline"></ion-icon>
+
+                  <span>: anything@gmail.com</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="contact-link">
+                  <ion-icon name="globe-outline"></ion-icon>
+
+                  <span>: www.anything.com</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="tel:+0011234567890" class="contact-link">
+                  <ion-icon name="call-outline"></ion-icon>
+
+                  <span>: (+001) 123 456 7890</span>
+                </a>
+              </li>
+
+              <li>
+                <div class="contact-link">
+                  <ion-icon name="time-outline"></ion-icon>
+
+                  <span>: 9:00 AM - 6:00 PM</span>
+                </div>
+              </li>
+
+              <li>
+                <p class="contact-link">116,Archer Rd
+                  Potheri, Chennai, (TN)
+                  12025</p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo" style="font-size: 30px; color:white;">
+            Logo
+          </a>
+
+          <p class="footer-text">
+            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-item-title">Platform</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Overview</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Features</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Pricing</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-item-title">Help</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">How does it work?</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Where to asked question?</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">How to pay?</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">What is needed for this?</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-item-title">Contacts</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">(716)-23203234</a>
+            </li>
+
+            <li>
+              <p class="footer-link">116,Archer Rd
+                Potheri, Chennai, (TN)
+                12025</p>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; UMA 2015-2022. All rights reserved.
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
